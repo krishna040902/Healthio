@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    margin: 0;
+    font-family: 'Poppins';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 2px 15px;
+}
+
+
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+}
+.buttons{
+    display: flex;
+    align-items: center;
+}
+button{
+    border: none;
+    padding: 12px 30px;
+    border-radius: 30px;
+    color: black;
+    font-weight: bold;
+    font-size: 15px;
+    transition: .2s;
+    margin-left: 4px;
+    margin-right: 4px;
+}
+#getstarted{
+    background-color: rgb(30, 215, 96);
+
+}
+button:hover{
+    transform: scale(1.12);
+    cursor: pointer;
+}
+
+.container{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+.texts{
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.workout{
+    max-width: 60%;
+}
+
+#logo{
+    max-width: 20%;
+}
+.headd{
+    margin: 0;
+}
+.container2{
+    background-color: rgb(236, 234, 234);
+}
+.whyheading{
+    font-size: 40px;
+    text-align: center;
+}
+.why{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whyimages{
+    max-width: 20%;
+}
+
+.mainheading .subheading{
+    display: inline;
+}
