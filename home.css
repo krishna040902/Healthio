@@ -36,9 +36,13 @@ button{
     margin-left: 4px;
     margin-right: 4px;
 }
-#getstarted{
+.green{
     background-color: rgb(30, 215, 96);
 
+}
+.getstarted{
+    font-size: 28px;
+    margin-top: 50px;
 }
 button:hover{
     transform: scale(1.12);
@@ -68,10 +72,10 @@ button:hover{
     margin: 0;
 }
 .container2{
-    background-color: rgb(236, 234, 234);
+    background-color: rgb(255, 255, 255);
 }
 .whyheading{
-    font-size: 40px;
+    font-size: 50px;
     text-align: center;
 }
 .why{
@@ -79,11 +83,30 @@ button:hover{
     flex-direction: column;
     align-items: center;
 }
+.whyrow{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
 
 .whyimages{
     max-width: 20%;
 }
 
-.mainheading .subheading{
+.mainheading {
     display: inline;
+    font-size: 35px;
+}
+.subheading {
+    display: inline;
+    font-size: 20px;
+}
+
+footer{
+    text-align: center;
+    color: rgb(73, 74, 74);
+}
+.heart{
+    color: red;
+    font-size: 20px;
 }
