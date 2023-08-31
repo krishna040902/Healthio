@@ -1,2 +1,0 @@
-# Healthio
-Gym Management App
